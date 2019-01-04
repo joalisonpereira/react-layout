@@ -21,7 +21,7 @@ const Sidebar = () => (
 					<ul className="nav-links">
 						<li>
 							<Link to="/">
-								START
+								HOME
 							</Link>
 						</li>
 						<li>
