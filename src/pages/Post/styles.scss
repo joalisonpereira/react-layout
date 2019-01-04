@@ -60,6 +60,19 @@
 			background-color: #FBFBFB;
 		}
 	}
+	.back-button{
+		@extend %button;
+		margin-top: 30px;
+		i{
+			margin-right: 5px;
+			font-size: 11px;
+			position: relative;
+			top: .5px;
+		}
+		@media(max-width:$lg){
+			margin: 30px auto 0;
+		}
+	}
 	.divider{
 		margin: 25px 0;
 	}

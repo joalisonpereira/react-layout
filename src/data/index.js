@@ -67,6 +67,9 @@ export const POSTS = [
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sint animi, recusandae quo mollitia eveniet nemo ipsum, minima voluptatum. Culpa temporibus alias officiis. Quibusdam voluptatibus ipsa eligendi, quae, architecto amet?
 				</blockquote>
 				<h2>My second title</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque illum, corrupti accusamus, molestiae excepturi dolorum, quia deserunt optio libero aliquam est sint. Nesciunt, minus iure cumque laudantium voluptate libero.
+				</p>
 			</div>
 		)
 	},
@@ -100,6 +103,9 @@ export const POSTS = [
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sint animi, recusandae quo mollitia eveniet nemo ipsum, minima voluptatum. Culpa temporibus alias officiis. Quibusdam voluptatibus ipsa eligendi, quae, architecto amet?
 				</blockquote>
 				<h2>My second title</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eaque illum, corrupti accusamus, molestiae excepturi dolorum, quia deserunt optio libero aliquam est sint. Nesciunt, minus iure cumque laudantium voluptate libero.
+				</p>
 			</div>
 		)
 	}

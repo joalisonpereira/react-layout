@@ -48,6 +48,11 @@ class Post extends Component {
 				<div className="text">
 					{post.content}
 				</div>
+				<Link to="/" className="back-button">
+					<i className="fa fa-arrow-left">
+					</i>
+					Back
+				</Link>
 			</article>
 		</div>
 	);
