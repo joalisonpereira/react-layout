@@ -1,0 +1,12 @@
+@import "../../styles/index";
+
+.home-container{
+	background-color: map-get($backgrounds,home);
+}
+
+#home{
+	.post-card{
+		margin-bottom: 40px;
+	}
+}
+

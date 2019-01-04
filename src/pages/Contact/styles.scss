@@ -1,0 +1,56 @@
+@import "../../styles/index";
+
+.contact-container{
+	background-color: map-get($backgrounds,contact);
+}
+
+#contact{
+	.inner{
+		background-color: #FFF;
+		box-shadow: $card-shadow;
+		h1{
+			@extend %simple-title;
+		}
+		.info{
+			display: flex;
+			margin-top: 30px;
+			justify-content: space-between;
+			@media(max-width: $xl){
+				flex-wrap: wrap;
+			}
+		}
+		.item{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			text-align: center;
+			width: 48%;
+			height: 140px;
+			margin: 10px 0px;
+			font-size: 14.5px;
+			border: solid 1px #DCDCDC;
+			border-bottom: solid 3px map-get($backgrounds,contact);
+			background-color: #FAFAFA; 
+			color: $title-text;
+			@media(max-width: $xl){
+				width: 100%;
+			}
+			i{
+				font-size: 16px;
+			}
+		}
+		.back-button{
+			@extend %button;
+			margin-top: 30px;
+			i{
+				margin-right: 5px;
+				font-size: 11px;
+				position: relative;
+				top: .5px;
+			}
+			@media(max-width:$lg){
+				margin: 30px auto 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+//Fonts
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+//Modules
+@import "modules/reset";
+@import "modules/variables";
+@import "modules/helpers";
+
+body{
+	font-family: 'Lato', sans-serif;
+}

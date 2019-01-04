@@ -1,0 +1,38 @@
+%hover-link{
+	transition: all .3s;
+	&:hover{
+		color: $hover-link;
+	}
+}
+%simple-title{
+	color: $title-text;
+	font-size: 28px;
+	@media(max-width: $xs){
+		font-size: 25px;
+	}
+}
+%button{
+	@extend %reset-button;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #AAA;
+	color: #FFF;
+	width: 95px;
+	height: 35px;
+	font-size: 14px;
+	border-radius: $border-radius;
+	transition: all .3s;
+	&:hover{
+		background-color: $base-text;
+		cursor: pointer;
+	}
+}
+.divider{
+	display: inline-block;
+	width: 100px;
+	border: solid .3px #D3D3D3;
+	@media(max-width: $md){
+		display: none;			
+	}
+}

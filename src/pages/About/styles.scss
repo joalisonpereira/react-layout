@@ -1,0 +1,55 @@
+@import "../../styles/index";
+
+.about-container{
+	background-color: map-get($backgrounds,about);
+}
+
+#about{
+	background-color: #FFF;
+	box-shadow: $card-shadow;
+	.inner{
+		padding: 30px;
+		h1{
+			@extend %simple-title;
+		}
+		.box{
+			display: flex;
+			align-items: center;
+			@media(max-width: $xl){
+				margin: 20px 0;
+			}
+			@media(max-width: $lg){
+				flex-direction: column;
+			}
+		}
+		p{
+			line-height: 33px;
+			color: $base-text;
+			font-size: 15px;
+			text-align: justify;
+			width: 100%;
+		}
+		img{
+			height: 190px;
+			margin-left: 40px;
+			border-radius: $border-radius;
+			@media(max-width: $lg){
+				margin-top: 30px;
+				margin-left: 0;
+			}
+		}
+		.back-button{
+			@extend %button;
+			i{
+				margin-right: 5px;
+				font-size: 11px;
+				position: relative;
+				top: .5px;
+			}
+			@media(max-width:$lg){
+				margin:0 auto;
+				margin-top: 40px;
+			}
+		}
+	}
+}
